@@ -9,7 +9,15 @@ Configurações SQLServer - Na classe appsettings.json, na propriedade Connectio
 
 Configuração do EF Migrations - No terminar do VS Code, na pasta ../Projeto/backend executar o seguinte comando: dotnet tool install --global dotnet-ef para garantir que o Entity Framework está instalado corretamente, em seguida executar dotnet ef database update para atualizar o banco de dados com as migrations do projeto.
 
+Comandos SQL para criar "clientes de teste":
+INSERT INTO Cliente (Login, Senha)
+VALUES ('antonio', '123412');
+
+INSERT INTO Cliente (Login, Senha)
+VALUES ('maria', 'abcdef');
+
 Execução backend - No terminal do VS Code, executar o comando dotnet run na pasta ../servico-autenticacao-main 
 Execução frontend - No prompt de comando do windows, executar os seguintes comandos em ordem: npm instal e em seguida ng serve na pasta ../servico-autenticacao-main 
+
 
 
