@@ -1,4 +1,7 @@
 # servico-de-autenticacao
+
+Teste Técnico Modular - .NET Core, Entity Framework, Migrations, SQL-Server e Front-end Angular.
+
 Uma API que busca no banco de dados um usuário e senha com base nas informações fornecidas pela requisição.
 Formulário de login e senha, conforme a informação inserida, o backend é requisitado. Dependendo do retorno, uma mensagem referente ao status é exibida na tela.
 
