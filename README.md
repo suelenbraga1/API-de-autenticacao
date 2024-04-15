@@ -9,11 +9,11 @@ Formulário de login e senha, conforme a informação inserida, o backend é req
 
 🏁 Requisitos Funcionais:
 
-Desenvolva um sistema de registro e login de usuário.
-Utilize obrigatoriamente o Entity Framework Core para a integração com o banco de dados.
-Integre o serviço de autenticação com um banco de dados SQL.
-Desenvolva um front-end em Angular que se comunique com o serviço de autenticação.
-Crie páginas de registro e login que interagam com a API criada.
+- Desenvolva um sistema de registro e login de usuário.
+- Utilize obrigatoriamente o Entity Framework Core para a integração com o banco de dados.
+- Integre o serviço de autenticação com um banco de dados SQL.
+- Desenvolva um front-end em Angular que se comunique com o serviço de autenticação.
+- Crie páginas de registro e login que interagam com a API criada.
 
 📁 Página:
 
@@ -21,21 +21,23 @@ O site possui uma página, que é:
 
 Home: A página principal é a única do projeto e apresenta um formulário de login e senha.
 
+🎯 Requerimentos:
 
+Antes de iniciar você precisa ter o VsCode e SQL Server instalado. 
 
 🚀 Tecnologias:
 
-.NET Core 
-Entity Framework
-Migrations
-SQL-Server
-Angular(front-end)
-
+- .NET Core 
+- Entity Framework
+- Migrations
+- SQL Server
+- Angular(front-end)
 
 
 ✅ Instruções:
 
 Configurações SQLServer - Na classe appsettings.json, na propriedade ConnectionStrings, realizar as seguintes alterações:
+
 - Data Source inserir o nome do servidor em questão.
 - Initial Catalog inserir o nome do banco de dados utilizado.
 
@@ -53,7 +55,6 @@ Execução backend - No terminal do VS Code, executar o comando dotnet run na pa
 
 Execução frontend - No prompt de comando do windows, executar os seguintes comandos em ordem: npm install e em seguida ng serve na pasta ../servico-de-autenticacao-main 
 
-![image](https://github.com/suelenbraga1/API-de-autenticacao/assets/140122120/05237b4a-6635-4ab9-9cd9-3df0fd7ebe20)
 
 
 
